@@ -140,8 +140,8 @@
         <li <?=$this->uri->segment(1) == 'criteria' ? 'class="active"' : ''?>>
             <a href="<?=site_url('criteria')?>"><i class="fa fa-newspaper-o"></i> <span>Criteria</span></a>
         </li>
-        <li <?=$this->uri->segment(1) == 'customer' ? 'class="active"' : ''?>>
-            <a href="<?=site_url('customer')?>"><i class="fa fa-user"></i> <span>Alternatif</span></a>
+        <li <?=$this->uri->segment(1) == 'alternatif' ? 'class="active"' : ''?>>
+            <a href="<?=site_url('alternatif')?>"><i class="fa fa-user"></i> <span>Alternatif</span></a>
         </li>
         <li class="treeview <?=$this->uri->segment(1) == 'category' ||
                                 $this->uri->segment(1) == 'unit' ||
